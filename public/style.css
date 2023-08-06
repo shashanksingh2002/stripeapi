@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -103,3 +104,110 @@ input[type="checkbox"]:checked + .toggle-label:before {
     content: 'Yearly';
 }
 
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.toggle-container {
+    position: relative;
+    display: inline-block;
+}
+
+.toggle-label {
+    display: block;
+    width: 80px;
+    height: 26px;
+    margin-right: 1rem;
+    background-color: #ccc;
+    border-radius: 13px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .toggle-label {
+    background-color: #66bb6a;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.screen h1 {
+    margin-top: 0;
+}
+
+
+.toggle-label {
+    display: block;
+    width: 80px;
+    height: 26px;
+    background-color: #ccc;
+    border-radius: 13px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding:0.5rem;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + .toggle-label:before {
+    content: 'Monthly';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #333;
+    background-color: #66bb6a;
+    border-radius: 13px 0 0 13px;
+    transition: transform 0.3s;
+}
+
+input[type="checkbox"]:checked + .toggle-label:before {
+    content: 'Yearly';
+    transform: translateX(100%);
+    background-color: #2196f3;
+    border-radius: 0 13px 13px 0;
+    width: 50%;
+}
+
+
+.toggle-label {
+    input[type="checkbox"]:checked + .toggle-label:before {
+        content: 'Monthly';
+    }
+}
+
+input[type="checkbox"]:checked + .toggle-label:before {
+    content: 'Yearly';
+}
+
+>>>>>>> 58affa397f2d73ae6f0e7255f1d9f373ec2a8a39
