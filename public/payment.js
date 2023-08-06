@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             data.data[0].subscriptions.forEach(plan => {
                 html += `<div class="plan">
                             <h2>${plan.plan.charAt(0).toUpperCase() + plan.plan.slice(1)}</h2>
-                            <p class="price">$${(plan.price)}/month</p>
+                            <p class="price">$${(plan.price)}</p>
                             <p>Video Quality: ${plan['video-quality']}</p>
                             <p>Resolution: ${plan.resolution}</p>
                             <p>Devices: ${plan.devices.join(', ')}</p>

@@ -1,16 +1,19 @@
+/* Original CSS */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: #1E4D90;
+    font-family: Arial, sans-serif;
 }
 
 .toggle-container {
     position: relative;
     display: inline-block;
+    margin-top: 20px;
 }
 
 .toggle-label {
@@ -23,44 +26,7 @@ body {
     position: relative;
     cursor: pointer;
     transition: background-color 0.3s;
-}
-
-input[type="checkbox"] {
-    display: none;
-}
-
-input[type="checkbox"]:checked + .toggle-label {
-    background-color: #66bb6a;
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.screen {
-    display: none;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.screen h1 {
-    margin-top: 0;
-}
-
-
-.toggle-label {
-    display: block;
-    width: 80px;
-    height: 26px;
-    background-color: #ccc;
-    border-radius: 13px;
-    position: relative;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    padding:0.5rem;
+    padding: 0.5rem;
 }
 
 input[type="checkbox"] {
@@ -92,14 +58,212 @@ input[type="checkbox"]:checked + .toggle-label:before {
     width: 50%;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 40px;
+}
 
-.toggle-label {
-    input[type="checkbox"]:checked + .toggle-label:before {
-        content: 'Monthly';
+.screen {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.screen h1 {
+    margin-top: 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .screen {
+        width: 100%;
+        margin-top: 20px;
     }
 }
 
-input[type="checkbox"]:checked + .toggle-label:before {
-    content: 'Yearly';
+.main-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.main-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.loginform, .signupform {
+    margin-bottom: 20px;
+}
+
+.loginform label, .signupform label {
+    margin-top: 0.5rem;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+.loginform input, .signupform input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.loginform button.login , .signupform button.signup{
+    width: 100%;
+    padding: 10px;
+    background-color: #1E4D90;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.loginform button.login:hover, .signupform button.signup:hover {
+    background-color: #153A6E;
+}
+
+.loginmessage, .signupmessage {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.link {
+    font-size: 14px;
+}
+
+.link a {
+    color: #1E4D90;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 480px) {
+    .main-container {
+        margin-top: 20%;
+    }
+}
+
+/* Additional Styles */
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.plan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.checkout-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1E4D90;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: #153A6E;
+}
+
+.main-success{
+    margin:4rem auto;
+    outline: 2px solid white;
+    background-color: white;
+    padding:1rem;
+    text-align: center;
+}
+
+.refund{
+    margin:1rem auto;
+    padding: 0.5rem;
+    background-color: red;
+    color: black;
+    width: 75%;
+}
+
+button {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  margin-top: 0.5rem;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+button:hover,
+button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}

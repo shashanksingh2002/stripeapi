@@ -11,10 +11,11 @@ document.addEventListener('DOMContentLoaded',() => {
     .then(response => response.json())
     .then(data => {
         id = data.id;
+        data.amount = Number(data.amount);
         const html = `
             <p>Plan: ${data.plan}</p>
             <p>Type: ${data.type}</p>
-            <p>Amount: ${data.amount}</p>
+            <p>Amount: $${data.amount}</p>
         `;
         dataPlaceholder.innerHTML = html;
     })
