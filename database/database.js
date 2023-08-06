@@ -87,7 +87,7 @@ module.exports = {
     updateUserTransaction: (transaction,plan,type) => {
         const data = {
             id: transaction.id,
-            amount: transaction.amount_total,
+            amount: transaction.amount_total/100,
             plan:plan,
             type:type
         };
