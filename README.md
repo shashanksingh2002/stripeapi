@@ -30,7 +30,7 @@
     </ul>
     <h2>Usage</h2>
     <ol>
-        <li>Visit the live website: <a href="https://stripe-0w1q.onrender.com">Stripe Payment Integration</a></li>
+        <li>Visit the live website: <a href="https://stripe-0w1q.onrender.com" target = "_blank">Stripe Payment Integration</a></li>
         <li>Sign up or log in to your account.</li>
         <li>Browse available subscription plans and choose one.</li>
         <li>Enter payment information securely using the Stripe payment gateway.</li>
@@ -57,17 +57,17 @@
     </ol>
      <h2>Credits</h2>
     <ul>
-        <li>Developed by <a href="https://github.com/shashanksingh2002">shashank singh</a></li>
-        <li>Stripe API: <a href="https://stripe.com">Stripe</a></li>
-        <li>MongoDB: <a href="https://www.mongodb.com">MongoDB</a></li>
+        <li>Developed by <a href="https://github.com/shashanksingh2002" target = "_blank">shashank singh</a></li>
+        <li>Stripe API: <a href="https://stripe.com" target = "_blank">Stripe</a></li>
+        <li>MongoDB: <a href="https://www.mongodb.com" target = "_blank">MongoDB</a></li>
         <li>A special thanks to RichPanel Team for creating such wonderful assignments</li>
     </ul>
     <h2>License</h2>
     <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
     <hr>
-    <p>For any questions or inquiries, please contact <a href="mailto:shashanksingh.co243@gmail.com">your@email.com</a>. Thank you for using our Stripe Payment Integration project! We hope you find it useful and user-friendly.</p>
-    <p><a href="https://github.com/shashanksingh2002/stripeapi">Visit Project Repository</a></p>
-     <p><a href="https://stripe-0w1q.onrender.com">Live Demo</a></p>
+    <p>For any questions or inquiries, please contact <a href="mailto:shashanksingh.co243@gmail.com" target = "_blank">your@email.com</a>. Thank you for using our Stripe Payment Integration project! We hope you find it useful and user-friendly.</p>
+    <p><a href="https://github.com/shashanksingh2002/stripeapi" target = "_blank">Visit Project Repository</a></p>
+     <p><a href="https://stripe-0w1q.onrender.com" target = "_blank">Live Demo</a></p>
 
 </body>
 </html>
