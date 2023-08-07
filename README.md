@@ -30,14 +30,6 @@
     </ul>
     <h2>Usage</h2>
     <ol>
-        <li>Visit the live website: <a href="https://stripe-0w1q.onrender.com" target = "_blank">Stripe Payment Integration</a></li>
-        <li>Sign up or log in to your account.</li>
-        <li>Browse available subscription plans and choose one.</li>
-        <li>Enter payment information securely using the Stripe payment gateway.</li>
-        <li>After successful payment, you'll be subscribed to the chosen plan.</li>
-        <li>You can manage your subscription by requesting or canceling it from your account.</li>
-    </ol>
-    <ol>
         <li>Visit the live website: <a href="https://stripe-0w1q.onrender.com" target="_blank">Stripe Payment Integration</a></li>
         <li>Sign up or log in to your account.</li>
         <li>Browse available subscription plans and choose one.</li>
