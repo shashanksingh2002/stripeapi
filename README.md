@@ -37,15 +37,6 @@
         <li>After successful payment, you'll be subscribed to the chosen plan.</li>
         <li>You can manage your subscription by requesting or canceling it from your account.</li>
     </ol>
-    <h2>Installation</h2>
-    <ol>
-        <li>Clone the repository: <code>git clone https://github.com/shashanksingh2002/stripeapi.git</code></li>
-        <li>Navigate to the project directory: <code>cd stripeapi</code></li>
-        <li>Install dependencies: <code>npm install</code></li>
-        <li>Configure your MongoDB database and Stripe API keys in the appropriate files.</li>
-        <li>Start the server: <code>npm start</code></li>
-        <li>Access the application in your web browser: <code>http://localhost:3000</code></li>
-    </ol>
     <ol>
         <li>Visit the live website: <a href="https://stripe-0w1q.onrender.com" target="_blank">Stripe Payment Integration</a></li>
         <li>Sign up or log in to your account.</li>
@@ -63,6 +54,15 @@
         </li>
         <li>After successful payment, you'll be subscribed to the chosen plan.</li>
         <li>You can manage your subscription by requesting or canceling it from your account.</li>
+    </ol>
+    <h2>Installation</h2>
+    <ol>
+        <li>Clone the repository: <code>git clone https://github.com/shashanksingh2002/stripeapi.git</code></li>
+        <li>Navigate to the project directory: <code>cd stripeapi</code></li>
+        <li>Install dependencies: <code>npm install</code></li>
+        <li>Configure your MongoDB database and Stripe API keys in the appropriate files.</li>
+        <li>Start the server: <code>npm start</code></li>
+        <li>Access the application in your web browser: <code>http://localhost:3000</code></li>
     </ol>
     <h2>Contributing</h2>
     <p>Contributions are welcome! If you'd like to contribute to this project, please follow these steps:</p>
