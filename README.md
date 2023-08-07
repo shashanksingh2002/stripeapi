@@ -46,6 +46,24 @@
         <li>Start the server: <code>npm start</code></li>
         <li>Access the application in your web browser: <code>http://localhost:3000</code></li>
     </ol>
+    <ol>
+        <li>Visit the live website: <a href="https://stripe-0w1q.onrender.com" target="_blank">Stripe Payment Integration</a></li>
+        <li>Sign up or log in to your account.</li>
+        <li>Browse available subscription plans and choose one.</li>
+        <li>Enter payment information securely using the Stripe payment gateway.</li>
+        <li>
+            <p><strong>For Testing:</strong> You can use the following dummy card details for payment:</p>
+            <ul>
+                <li>Card Number: 4242 4242 4242 4242</li>
+                <li>CVV: Any 3-digit number</li>
+                <li>Name: Dummy Name</li>
+                <li>Email: dummy@example.com</li>
+                <li>Expiry: Any future month/year (after today's date)</li>
+            </ul>
+        </li>
+        <li>After successful payment, you'll be subscribed to the chosen plan.</li>
+        <li>You can manage your subscription by requesting or canceling it from your account.</li>
+    </ol>
     <h2>Contributing</h2>
     <p>Contributions are welcome! If you'd like to contribute to this project, please follow these steps:</p>
     <ol>
